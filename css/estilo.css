@@ -1,0 +1,155 @@
+.titulo-site {
+    text-align: center;
+}
+
+.texto-branco {
+    color: white !important;
+}
+.texto-branco-ativo {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.texto-preto {
+    color: black !important;
+}
+
+.texto-centralizado {
+    text-align: center !important;
+}
+
+.texto-esquerda {
+    text-align: left !important;
+}
+
+#borda {
+    border-color: red;
+}
+
+nav {
+    background-color: rgb(243, 165, 146) !important;
+}
+
+
+/* Make the image fully responsive */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-------------------------------*/
+
+.pequeno {
+    width: 20%;
+}
+
+.medio {
+    width: 50%;
+}
+
+.completo {
+    width: 100%;
+}
+
+
+/* Fonte */
+.body {
+    font-family: 'Gruppo', cursive !important;
+    font-size: 29px !important;
+}
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+}
+.fonte-depoimentos {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-style: italic !important;
+}
+/* Imagem responsiva */
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Cor icones*/
+
+.pink {
+    color: rgb(243, 165, 146);
+}
+
+
+/*Botão rosa*****************************************************/
+
+.btn-rosa {
+    color: #fff;
+    background-color: rgb(243, 165, 146);
+    border-color: rgb(241, 204, 195);
+}
+
+.btn-rosa:focus,
+.btn-rosa.focus {
+    color: #fff;
+    background-color: rgb(243, 165, 146);
+    border-color: white;
+}
+
+.btn-rosa:hover {
+    color: #fff;
+    background-color: rgb(243, 165, 146);
+    border-color: white;
+}
+
+.btn-rosa:active,
+.btn-rosa.active,
+.open>.dropdown-toggle.btn-rosa {
+    color: #fff;
+    background-color: rgb(243, 165, 146);
+    border-color: white;
+}
+
+.btn-rosa:active:hover,
+.btn-rosa.active:hover,
+.open>.dropdown-toggle.btn-rosa:hover,
+.btn-rosa:active:focus,
+.btn-rosa.active:focus,
+.open>.dropdown-toggle.btn-rosa:focus,
+.btn-rosa:active.focus,
+.btn-rosa.active.focus,
+.open>.dropdown-toggle.btn-rosa.focus {
+    color: #fff;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-rosa:active,
+.btn-rosa.active,
+.open>.dropdown-toggle.btn-rosa {
+    background-image: none;
+}
+
+.btn-rosa.disabled:hover,
+.btn-rosa[disabled]:hover,
+fieldset[disabled] .btn-rosa:hover,
+.btn-rosa.disabled:focus,
+.btn-rosa[disabled]:focus,
+fieldset[disabled] .btn-rosa:focus,
+.btn-rosa.disabled.focus,
+.btn-rosa[disabled].focus,
+fieldset[disabled] .btn-rosa.focus {
+    background-color: #E81504;
+    border-color: white;
+}
+
+.btn-rosa .badge {
+    color: #E81504;
+    background-color: #fff;
+}
+/*FUNDO*****************************************************/
+.fundo-cinza {
+    background-color: gray;
+}
